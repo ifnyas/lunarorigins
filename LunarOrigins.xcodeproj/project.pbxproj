@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E25EE116244AE32A00213940 /* Lunar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EE115244AE32A00213940 /* Lunar.swift */; };
+		E25EE118244AE35D00213940 /* LunarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EE117244AE35D00213940 /* LunarsData.swift */; };
 		E27F7BE1244ACFE6000CECC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7BE0244ACFE6000CECC3 /* AppDelegate.swift */; };
 		E27F7BE3244ACFE6000CECC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7BE2244ACFE6000CECC3 /* SceneDelegate.swift */; };
 		E27F7BE5244ACFE6000CECC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7BE4244ACFE6000CECC3 /* ViewController.swift */; };
 		E27F7BE8244ACFE6000CECC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27F7BE6244ACFE6000CECC3 /* Main.storyboard */; };
 		E27F7BEA244ACFEA000CECC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27F7BE9244ACFEA000CECC3 /* Assets.xcassets */; };
 		E27F7BED244ACFEA000CECC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27F7BEB244ACFEA000CECC3 /* LaunchScreen.storyboard */; };
+		E27F7BF6244AD6FA000CECC3 /* LunarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7BF4244AD6FA000CECC3 /* LunarTableViewCell.swift */; };
+		E27F7BF7244AD6FA000CECC3 /* LunarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27F7BF5244AD6FA000CECC3 /* LunarTableViewCell.xib */; };
+		E287EF63244C07F3006C62D8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287EF61244C07F3006C62D8 /* ProfileViewController.swift */; };
+		E2931F4D244BB28900A8BD83 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2931F4B244BB28900A8BD83 /* DetailViewController.swift */; };
+		E2931F4E244BB28900A8BD83 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2931F4C244BB28900A8BD83 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E27F7BDD244ACFE6000CECC3 /* LunarOrigins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarOrigins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25EE115244AE32A00213940 /* Lunar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunar.swift; sourceTree = "<group>"; };
+		E25EE117244AE35D00213940 /* LunarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarsData.swift; sourceTree = "<group>"; };
+		E27F7BDD244ACFE6000CECC3 /* Roman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27F7BE0244ACFE6000CECC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E27F7BE2244ACFE6000CECC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E27F7BE4244ACFE6000CECC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		E27F7BE9244ACFEA000CECC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27F7BEC244ACFEA000CECC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27F7BEE244ACFEA000CECC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27F7BF4244AD6FA000CECC3 /* LunarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarTableViewCell.swift; sourceTree = "<group>"; };
+		E27F7BF5244AD6FA000CECC3 /* LunarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LunarTableViewCell.xib; sourceTree = "<group>"; };
+		E287EF61244C07F3006C62D8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E2931F4B244BB28900A8BD83 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E2931F4C244BB28900A8BD83 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E25EE111244AE28A00213940 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E27F7BE0244ACFE6000CECC3 /* AppDelegate.swift */,
+				E27F7BE2244ACFE6000CECC3 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E25EE112244AE2AE00213940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E25EE115244AE32A00213940 /* Lunar.swift */,
+				E25EE117244AE35D00213940 /* LunarsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E25EE113244AE2B700213940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E27F7BE4244ACFE6000CECC3 /* ViewController.swift */,
+				E287EF61244C07F3006C62D8 /* ProfileViewController.swift */,
+				E2931F4B244BB28900A8BD83 /* DetailViewController.swift */,
+				E27F7BF4244AD6FA000CECC3 /* LunarTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E25EE114244AE2BF00213940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2931F4C244BB28900A8BD83 /* DetailViewController.xib */,
+				E27F7BEB244ACFEA000CECC3 /* LaunchScreen.storyboard */,
+				E27F7BF5244AD6FA000CECC3 /* LunarTableViewCell.xib */,
+				E27F7BE6244ACFE6000CECC3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E27F7BD4244ACFE5000CECC3 = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +102,7 @@
 		E27F7BDE244ACFE6000CECC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E27F7BDD244ACFE6000CECC3 /* LunarOrigins.app */,
+				E27F7BDD244ACFE6000CECC3 /* Roman.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +110,12 @@
 		E27F7BDF244ACFE6000CECC3 /* LunarOrigins */ = {
 			isa = PBXGroup;
 			children = (
-				E27F7BE0244ACFE6000CECC3 /* AppDelegate.swift */,
-				E27F7BE2244ACFE6000CECC3 /* SceneDelegate.swift */,
-				E27F7BE4244ACFE6000CECC3 /* ViewController.swift */,
-				E27F7BE6244ACFE6000CECC3 /* Main.storyboard */,
 				E27F7BE9244ACFEA000CECC3 /* Assets.xcassets */,
-				E27F7BEB244ACFEA000CECC3 /* LaunchScreen.storyboard */,
+				E25EE111244AE28A00213940 /* Base */,
+				E25EE113244AE2B700213940 /* Controller */,
 				E27F7BEE244ACFEA000CECC3 /* Info.plist */,
+				E25EE112244AE2AE00213940 /* Model */,
+				E25EE114244AE2BF00213940 /* View */,
 			);
 			path = LunarOrigins;
 			sourceTree = "<group>";
@@ -84,7 +137,7 @@
 			);
 			name = LunarOrigins;
 			productName = LunarOrigins;
-			productReference = E27F7BDD244ACFE6000CECC3 /* LunarOrigins.app */;
+			productReference = E27F7BDD244ACFE6000CECC3 /* Roman.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27F7BF7244AD6FA000CECC3 /* LunarTableViewCell.xib in Resources */,
 				E27F7BED244ACFEA000CECC3 /* LaunchScreen.storyboard in Resources */,
+				E2931F4E244BB28900A8BD83 /* DetailViewController.xib in Resources */,
 				E27F7BEA244ACFEA000CECC3 /* Assets.xcassets in Resources */,
 				E27F7BE8244ACFE6000CECC3 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27F7BF6244AD6FA000CECC3 /* LunarTableViewCell.swift in Sources */,
+				E25EE118244AE35D00213940 /* LunarsData.swift in Sources */,
 				E27F7BE5244ACFE6000CECC3 /* ViewController.swift in Sources */,
 				E27F7BE1244ACFE6000CECC3 /* AppDelegate.swift in Sources */,
 				E27F7BE3244ACFE6000CECC3 /* SceneDelegate.swift in Sources */,
+				E25EE116244AE32A00213940 /* Lunar.swift in Sources */,
+				E287EF63244C07F3006C62D8 /* ProfileViewController.swift in Sources */,
+				E2931F4D244BB28900A8BD83 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +345,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6A6T3QUZ7;
 				INFOPLIST_FILE = LunarOrigins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ifnyas.LunarOrigins;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Roman;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,15 +363,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6A6T3QUZ7;
 				INFOPLIST_FILE = LunarOrigins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ifnyas.LunarOrigins;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Roman;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
