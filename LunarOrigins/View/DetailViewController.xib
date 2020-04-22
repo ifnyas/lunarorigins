@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="LunarOrigins" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="Roman" customModuleProvider="target">
             <connections>
                 <outlet property="descLunar" destination="ktV-CP-kkh" id="39X-dd-3GH"/>
                 <outlet property="imgLunar" destination="bXA-mi-pvL" id="vjk-7g-Ql7"/>
@@ -20,25 +20,28 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXA-mi-pvL">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bXA-mi-pvL">
                     <rect key="frame" x="0.0" y="44" width="414" height="207"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bXA-mi-pvL" secondAttribute="height" multiplier="2:1" id="0aW-ei-5K5"/>
+                    </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5M-9F-9ha">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5M-9F-9ha">
                     <rect key="frame" x="0.0" y="275" width="414" height="29"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="K5M-9F-9ha" secondAttribute="height" multiplier="414:29" id="qqd-MU-NCI"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ktV-CP-kkh">
-                    <rect key="frame" x="16" y="312" width="382" height="550"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktV-CP-kkh">
+                    <rect key="frame" x="16" y="312" width="382" height="21"/>
                     <attributedString key="attributedText">
                         <fragment content="Label">
                             <attributes>
                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                <font key="NSFont" metaFont="system" size="14"/>
+                                <font key="NSFont" metaFont="menu" size="14"/>
                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
                             </attributes>
                         </fragment>
@@ -47,6 +50,18 @@
                 </label>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="ktV-CP-kkh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="4Y6-et-eKy"/>
+                <constraint firstItem="bXA-mi-pvL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="7xR-81-8B9"/>
+                <constraint firstItem="ktV-CP-kkh" firstAttribute="top" secondItem="K5M-9F-9ha" secondAttribute="bottom" constant="8" id="BTD-5c-A5W"/>
+                <constraint firstItem="bXA-mi-pvL" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Sg3-5Z-MLV"/>
+                <constraint firstItem="K5M-9F-9ha" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="VZc-Nw-ymi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ktV-CP-kkh" secondAttribute="trailing" constant="16" id="kSQ-0R-vPa"/>
+                <constraint firstItem="ktV-CP-kkh" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="16" id="qVn-Rm-1ag"/>
+                <constraint firstItem="bXA-mi-pvL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="utx-Nh-EJz"/>
+                <constraint firstItem="K5M-9F-9ha" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="xmf-0X-7RU"/>
+                <constraint firstItem="K5M-9F-9ha" firstAttribute="top" secondItem="bXA-mi-pvL" secondAttribute="bottom" constant="24" id="yDj-BC-s1W"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="131.8840579710145" y="127.90178571428571"/>
         </view>
